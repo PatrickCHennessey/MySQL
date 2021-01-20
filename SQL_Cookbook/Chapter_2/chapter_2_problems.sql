@@ -14,9 +14,10 @@
 
 
 
-/* 2.4 Sorting Mixed Alphanumeric Data*/
+/* SKIP!!!! */ 
+/* 2.4 Sorting Mixed Alphanumeric Data*/  
 	/* Boss: Sort the data by either the numeric or character portions*/
-	/* NOTE: Dependent on SQL used. MySQL is different than other types*/
+	/* NOTE: Dependent on SQL used. Supported only by PostgreSQL, Oracle, and DB2. Unsupported by MySQL and SQL server*/
 
 
 
