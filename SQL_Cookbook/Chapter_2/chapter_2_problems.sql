@@ -1,3 +1,5 @@
+/* Sorting Query Results */
+
 /* 2.1 Returning Query Results in a Specific Order*/
 /* Display the names, jobs, salaries of employees in the department 10 displayed based on salary (lowest-highest) */
 

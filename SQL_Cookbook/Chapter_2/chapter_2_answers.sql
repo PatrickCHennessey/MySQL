@@ -1,3 +1,5 @@
+/* Sorting Query Results */
+
 /* 2.1 Returning Query Results in a Specific Order*/
 /* Display the names, jobs, salaries of employees in the department 10 displayed based on salary (lowest-highest) */
 
@@ -15,7 +17,7 @@ SELECT ename, job, sal
 		WHERE deptno = 10
 			ORDER BY sal desc;
 
-/* Sort by header number from left to right, starts at 1 instead of 0, this is used as alternate way to indicate which column header to ORDER BY*/
+/* Sort by header number from left to right, starts at 1 instead of 0, this is used as an alternate way to indicate which column header to ORDER BY*/
 	
 SELECT ename, job, sal
 	FROM emp
@@ -23,7 +25,7 @@ SELECT ename, job, sal
 			ORDER BY 3 desc;
 
 /* 2.2 Sorting by Multiple Fields*/
-/* Sort the rows from EMP first by DEPTNO ascebding then by salary descending */
+/* Sort the rows from EMP first by DEPTNO ascending then by salary descending */
 	
 SELECT empno, deptno, sal, ename, job
 	FROM emp
