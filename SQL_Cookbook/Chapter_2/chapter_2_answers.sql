@@ -1,8 +1,7 @@
 /* Sorting Query Results */
 
 /* 2.1 Returning Query Results in a Specific Order*/
-/* Display the names, jobs, salaries of employees in the department 10 displayed based on salary (lowest-highest) */
-
+/* Display the names, jobs, salaries of employees in the department 10 displayed based on salary (lowest to highest) */
 /* ORDER BY sorted by Ascending value by default */
 
 SELECT ename, job, sal
@@ -45,9 +44,9 @@ Supported only by PostgreSQL, Oracle, and DB2.
 Unsupported by MySQL and SQL server*/
 
 
-
 /* 2.5 Dealing with Nulls When Sorting*/
 /* NOTE: Dependent on SQL used. MySQL is different than other types*/
+/* You want to sort results from EMP table by COMM, but the field is nullable. Do nulls sort first or last */ 
 
 /* EMP table sort by column containing NULL values in ascending order */ 
 SELECT ename, sal, comm
@@ -103,7 +102,8 @@ SELECT ename, sal, comm
 
 
 /* 2.6 Sorting on a Data Dependent Key*/
-/* If job is SALESMAN sort by comm, otherwise sort by sal*/
+/* Sort using conditional formatting, */
+/* If JOB is "SALESMAN" sort by COMM, otherwise sort by SAL */
 
 SELECT ename, sal, job, comm
 	FROM emp
