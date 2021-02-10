@@ -13,12 +13,14 @@ SELECT *
 FROM dept;
 
 /* 1.2 - Retrieving a Subset of Rows from a Table*/
+/* Get data from a table that satisfieds a condition*/
 
 SELECT *
 	FROM emp
 WHERE deptno = 10;
 
 /* 1.3 - Finding Rows that Satisfy Multiple Conditions*/
+/* Get data from a table that satisfieds multiple conditions*/
 
 SELECT *
 	FROM emp
@@ -52,13 +54,12 @@ SELECT sal as salary, comm as commission
 /*Common Mistake 
 SELECT sal as salary, comm as commission
 	FROM emp
-		WHERE salary < 5000;
+		WHERE salary < 5000; */
 
-
-WHERE is evaluated before SELECT
-FROM is evaluated before WHERE
-So parentheses after FROM, illustrated below has query evaluate what is contained within the parentheses
-	before the WHERE is evaluated */
+/* Note:
+WHERE is evaluated before SELECT, FROM is evaluated before WHERE, 
+So parentheses after FROM, illustrated below has the query evaluate what is contained within the parentheses
+*BEFORE* the WHERE is evaluated */
         
 SELECT *
 	FROM (
@@ -82,7 +83,7 @@ SELECT concat(ename, ' WORKS AS A ', job) as msg
 		WHERE deptno=10;
 
 /* 1.8 - Using Conditional Logic in a SELECT Statement*/
-/* IF-ELSE Conditional Formatting */
+/* Perform IF-ELSE using CASE on your SELECT statement*/
     
 SELECT ename, sal, 
 		CASE when sal <= 2000 then 'UNDERPAID'
@@ -100,6 +101,7 @@ SELECT *
 
 /* 1.10 - Returning n Random Records from a Table*/
 /* NOTE: Dependent on SQL used. MySQL is different than other types*/
+/* The order of the rows returned IS NOT specified */
 
 SELECT ename, job
 	FROM emp 
