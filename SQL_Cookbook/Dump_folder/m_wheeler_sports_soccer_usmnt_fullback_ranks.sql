@@ -1,0 +1,86 @@
+-- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
+--
+-- Host: localhost    Database: m_wheeler_sports
+-- ------------------------------------------------------
+-- Server version	8.0.19
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `soccer_usmnt_fullback_ranks`
+--
+
+DROP TABLE IF EXISTS `soccer_usmnt_fullback_ranks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `soccer_usmnt_fullback_ranks` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `First Name` varchar(25) DEFAULT NULL,
+  `Last Name` varchar(12) DEFAULT NULL,
+  `Position` varchar(5) DEFAULT NULL,
+  `Age` int NOT NULL,
+  `Current Club` varchar(25) DEFAULT NULL,
+  `League` varchar(25) DEFAULT NULL,
+  `Modifier` decimal(12,2) DEFAULT NULL,
+  `Clubs Represented` varchar(45) DEFAULT NULL,
+  `Starts` int NOT NULL,
+  `Adjusted Starts Score` decimal(12,2) DEFAULT NULL,
+  `Minutes` int NOT NULL,
+  `Adjusted Minutes Score` decimal(12,2) DEFAULT NULL,
+  `Gls+Ast+PK` decimal(12,2) DEFAULT NULL,
+  `Adjusted Gls+Ast+PK Score` decimal(12,2) DEFAULT NULL,
+  `YC+RC*5/90` decimal(12,2) DEFAULT NULL,
+  `Adjusted YC+RC*5/90 Score` decimal(12,2) DEFAULT NULL,
+  `Pass %` decimal(12,2) DEFAULT NULL,
+  `Adjusted Pass % Score` decimal(12,2) DEFAULT NULL,
+  `Pass into Final 1/3` decimal(12,2) DEFAULT NULL,
+  `Adjusted Pass into Final 1/3 Score` decimal(12,2) DEFAULT NULL,
+  `Successful # Crosses Into Box` decimal(12,2) DEFAULT NULL,
+  `Adjusted Successful # Crosses Into Box Score` decimal(12,2) DEFAULT NULL,
+  `Tackle % vs Dribbles` decimal(12,2) DEFAULT NULL,
+  `Adjusted Tackle % vs Dribbles Score` decimal(12,2) DEFAULT NULL,
+  `Pressure Success %` decimal(12,2) DEFAULT NULL,
+  `Adjusted Pressure Success % Score` decimal(12,2) DEFAULT NULL,
+  `Tkl+Int+Blk+Clr` decimal(12,2) DEFAULT NULL,
+  `Adjusted Tkl+Int+Blk+Clr Score` decimal(12,2) DEFAULT NULL,
+  `Errors` decimal(12,2) DEFAULT NULL,
+  `Score` int NOT NULL,
+  `Total Score` decimal(12,2) DEFAULT NULL,
+  `Weighted Score` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `Age_index` (`Age`),
+  KEY `Starts_index` (`Starts`),
+  KEY `Minutes_index` (`Minutes`),
+  KEY `Score_index` (`Score`)
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `soccer_usmnt_fullback_ranks`
+--
+
+LOCK TABLES `soccer_usmnt_fullback_ranks` WRITE;
+/*!40000 ALTER TABLE `soccer_usmnt_fullback_ranks` DISABLE KEYS */;
+INSERT INTO `soccer_usmnt_fullback_ranks` VALUES (1,'Keegan','Rosenberry','RB',26,'Colorado Rapids','MLS',1.00,'Philadelphia Union/Colorado Rapids',33,97.06,2964,97.47,4.00,60.61,0.09,85.15,81.90,79.28,95.00,87.40,14.70,147.00,33.00,61.11,24.80,38.81,327.30,126.15,0.70,65,85.91,85.91),(2,'Graham','Zusi','RB',34,'Sporting Kansas City','MLS',1.00,'Sporting Kansas City',29,85.29,2587,78.76,2.70,40.91,0.12,78.71,81.90,79.28,158.00,145.35,14.30,143.00,42.70,79.07,30.20,65.67,187.70,56.35,1.70,15,78.85,78.85),(3,'Ryan','Hollingshead','LB',29,'FC Dallas','MLS',1.00,'FC Dallas',24,70.59,2232,61.14,5.70,86.36,0.07,91.04,82.70,82.88,77.70,71.48,6.70,67.00,51.00,94.44,29.30,61.19,224.00,74.50,0.00,100,78.24,78.24),(4,'Antonee','Robinson','LB',23,'Fulham FC','English-Championship',1.05,'Wigan Athletic',34,100.00,3015,100.00,1.80,27.27,0.15,69.19,83.20,85.14,35.70,32.84,17.90,179.00,35.00,64.81,7.00,-49.75,272.00,98.50,0.00,100,73.36,77.03),(5,'DeAndre','Yedlin','RB',27,'Newcastle United','Premier League',1.10,'Newcastle United',16,47.06,1450,22.33,1.90,28.79,0.33,18.21,79.30,67.57,54.20,49.86,17.20,172.00,40.50,75.00,27.30,51.24,246.70,85.85,0.00,100,65.26,71.79),(6,'Reggie','Cannon','RB',22,'Boavista','MLS',1.00,'FC Dallas',28,82.35,2485,73.70,2.30,34.85,0.19,57.70,84.10,89.19,57.70,53.08,9.70,97.00,52.30,96.85,25.20,40.80,197.30,61.15,0.00,100,71.52,71.52),(7,'Raymon','Gaddis','RB',30,'Philadelphia Union','MLS',1.00,'Philadelphia Union',31,91.18,2738,86.25,1.00,15.15,0.05,96.92,83.30,85.59,92.70,85.28,5.30,53.00,46.50,86.11,29.90,64.18,203.00,64.00,1.00,50,70.70,70.70),(8,'Nick','Lima','RB',25,'San Jose Earthquakes','MLS',1.00,'San Jose Earthquakes',25,73.53,2221,60.60,3.30,50.00,0.11,80.11,80.00,70.72,52.30,48.11,10.30,103.00,49.80,92.22,27.00,49.75,198.00,61.50,0.30,85,70.41,70.41),(9,'Timothy','Chandler','RB',30,'Eintracht Frankfurt','Bundesliga',1.10,'Eintracht Frankfurt',15,44.12,1444,22.03,6.60,100.00,0.26,37.54,69.30,22.52,38.50,35.42,17.90,179.00,46.40,85.93,31.50,72.14,94.90,9.95,0.30,85,63.06,69.36),(10,'Brandon','Bye','RB',24,'New England Revolution','MLS',1.00,'New England Revolution',25,73.53,2261,62.58,3.30,50.00,0.33,19.61,68.00,16.67,80.70,74.24,16.00,160.00,45.00,83.33,30.40,66.67,216.70,70.85,0.30,85,69.32,69.32),(11,'Jorge','Villafana','LB',31,'Portland Timbers','MLS',1.00,'Portland Timbers',17,50.00,1513,25.46,3.00,45.45,0.01,108.40,79.80,69.82,44.70,41.12,16.00,160.00,39.70,73.52,30.20,65.67,136.00,30.50,0.30,85,68.63,68.63),(12,'Aaron','Herrera','RB',23,'Real Salt Lake','MLS',1.00,'Real Monarchs/Real Salt Lake',25,73.53,2257,62.38,2.00,30.30,0.29,29.41,80.80,74.32,71.30,65.59,6.00,60.00,51.00,94.44,26.30,46.27,234.00,79.50,0.00,100,65.07,65.07),(13,'Justin','Morrow','LB',33,'Toronto FC','MLS',1.00,'Toronto FC',24,70.59,2162,57.67,4.00,60.61,0.22,50.42,82.50,81.98,61.00,56.12,9.30,93.00,47.00,87.04,28.60,57.71,169.00,47.00,1.30,35,63.38,63.38),(14,'Daniel','Lovitz','LB',29,'Nashville SC','MLS',1.00,'Montreal Impact',28,82.35,2563,77.57,2.00,30.30,0.23,47.90,74.60,46.40,108.70,100.00,7.70,77.00,44.80,82.96,26.60,47.76,199.00,62.00,1.30,35,62.66,62.66),(15,'Brooks','Lennon','RB',23,'Atlanta United FC','MLS',1.00,'Real Monarchs/Real Salt Lake',22,64.71,2022,50.72,2.00,30.30,0.20,54.62,76.60,55.41,68.00,62.56,17.70,177.00,40.50,75.00,24.30,36.32,151.30,38.15,1.30,35,61.80,61.80),(16,'Jakob','Nerwinski','RB',26,'Vancouver Whitecaps FC','MLS',1.00,'Vancouver Whitecaps FC',24,70.59,2085,53.85,0.70,10.61,0.06,93.28,78.40,63.51,42.00,38.64,6.00,60.00,36.60,67.78,25.10,40.30,188.70,56.85,0.00,100,59.58,59.58),(17,'Edgar','Castillo','LB',34,'Atlanta United FC','MLS',1.00,'Colorado Rapids/New England Revolution',23,67.65,1939,46.60,6.00,90.91,0.20,56.30,76.10,53.15,78.30,72.03,4.70,47.00,38.30,70.93,24.40,36.82,159.00,42.00,1.00,50,57.58,57.58),(18,'Donald','Toia','LB',28,'Real Salt Lake','MLS',1.00,'Orlando City FC/Real Salt Lake',18,52.94,1566,28.09,1.70,25.76,0.11,80.67,79.60,68.92,47.70,43.88,4.00,40.00,49.50,91.67,27.20,50.75,166.70,45.85,0.00,100,57.14,57.14),(19,'Sam','Vines','LB',21,'Colorado Rapids','MLS',1.00,'Charlotte/Colorado Rapids',24,70.59,2217,60.40,1.30,19.70,0.04,100.00,77.40,59.01,52.00,47.84,3.00,30.00,40.00,74.07,23.20,30.85,140.30,32.65,0.00,100,56.83,56.83),(20,'Tristan','Blackmon','RB',24,'Los Angeles FC','MLS',1.00,'LAFC/Phoenix Rising',16,47.06,1495,24.57,3.30,50.00,0.17,64.71,86.10,98.20,62.30,57.31,0.70,7.00,37.60,69.63,34.80,88.56,103.70,14.35,0.00,100,56.49,56.49),(21,'Ben','Sweat','LB',29,'Inter Miami FC','MLS',1.00,'NYCFC/Inter Miami FC',17,50.00,1576,28.59,1.00,15.15,0.18,60.22,82.70,82.88,53.00,48.76,6.30,63.00,51.40,95.19,28.40,56.72,115.70,20.35,0.30,85,55.08,55.08),(22,'Amadou','Dia','LB',27,'Sporting Kansas City','USL',0.90,'Phoenix Rising',30,88.24,2722,85.46,3.30,50.00,0.20,55.18,68.80,20.27,25.20,23.18,4.50,45.00,54.00,100.00,35.00,89.55,89.10,7.05,0.00,100,60.36,54.32),(23,'DeJuan','Jones','RB',23,'New England Revolution','MLS',1.00,'New England Revolution',14,41.18,1297,14.74,1.00,15.15,0.07,90.48,76.90,56.76,34.00,31.28,9.00,90.00,38.70,71.67,28.90,59.20,109.00,17.00,0.00,100,53.40,53.40),(24,'Kyle','Smith','RB',28,'Orlando City FC','MLS',1.00,'Orlando City FC/Louisville',21,61.76,1889,44.12,2.70,40.91,0.16,65.27,79.60,68.92,49.00,45.08,1.00,10.00,36.40,67.41,25.20,40.80,145.00,35.00,0.00,100,52.66,52.66),(25,'Shaq','Moore','RB',23,'Tenerife','Spain-Segunda Division',1.00,'Reus/Tenerife',15,44.12,1407,20.20,2.70,40.91,0.19,59.10,73.40,40.99,17.00,15.64,5.00,50.00,33.30,61.67,41.30,120.90,43.00,-16.00,0.00,100,48.87,48.87),(26,'Sergino','Dest','RB',19,'FC Barcelona','Eredivise',1.05,'Jong Ajax/Ajax',16,47.06,1475,23.57,3.50,53.03,0.18,61.34,85.20,94.14,16.80,15.46,0.70,7.00,50.50,93.52,27.80,53.73,21.00,-27.00,0.00,100,47.44,47.44),(27,'Johnathan','Bornstein','LB',35,'Chicago Fire','MLS',1.00,'Queretaro/Chicago Fire',11,32.35,962,-1.89,0.00,0.00,0.09,85.71,79.50,68.47,25.00,23.00,2.00,20.00,64.30,119.07,29.40,61.69,89.00,7.00,0.00,100,46.86,46.86),(28,'Thomas','Thompson','RB',25,'San Jose Earthquakes','MLS',1.00,'San Jose/Reno',21,61.76,1784,38.91,2.00,30.30,0.37,7.56,86.50,100.00,60.30,55.47,2.00,20.00,50.40,93.33,26.00,44.78,107.70,16.35,1.30,35,45.77,45.77),(29,'Taylor','Washington','LB',27,'Nashville SC','USL',0.90,'Nashville SC',22,64.71,2088,54.00,2.70,40.91,0.12,78.71,73.40,40.99,13.00,11.96,6.00,60.00,60.00,111.11,18.50,7.46,27.00,-24.00,0.00,100,49.62,44.66),(30,'Hector Osvaldo','Jimenez','RB',32,'Columbus Crew','MLS',1.00,'Columbus Crew',15,44.12,1298,14.79,2.00,30.30,0.04,100.14,81.20,76.13,44.70,41.12,3.00,30.00,33.30,61.67,29.10,60.20,128.70,26.85,2.00,0,44.12,44.12),(31,'Eric','Lichaj','RB',31,'Fatih Karagumruk SK','English-Championship',1.05,'Hull City',31,91.18,2751,86.90,1.70,25.76,0.12,77.59,75.50,50.45,22.90,21.07,11.30,113.00,0.00,0.00,0.00,-84.58,212.90,68.95,2.00,0,40.94,42.98),(32,'Kyle','Duncan','RB',23,'New York Red Bulls','MLS',1.00,'New York Red Bulls/NYRB II',15,44.12,1289,14.34,3.70,56.06,0.51,-31.93,68.60,19.37,30.00,27.60,1.70,17.00,42.00,77.78,37.70,102.99,103.30,14.15,0.00,100,40.13,40.13),(33,'George','Bello','LB',18,'Atlanta United FC','USL',0.90,'Atlanta United FC/Atlanta 2',10,29.41,786,-10.62,0.90,13.64,0.27,36.13,74.40,45.50,37.00,34.04,4.00,40.00,47.40,87.78,37.10,100.00,98.00,11.50,0.00,100,44.31,39.88),(34,'Saad','Abdul-Salaam','RB',29,'FC Cincinnati','MLS',1.00,'Seattle/Tacoma/NYCFC',13,38.24,1240,11.91,1.00,15.15,0.11,79.55,81.50,77.48,19.00,17.48,1.70,17.00,22.20,41.11,24.10,35.32,73.00,-1.00,0.00,100,39.29,39.29),(35,'Eric','Miller','RB',27,'Nashville SC','MLS',1.00,'NYCFC/Minnesota United',10,29.41,890,-5.46,0.30,4.55,0.17,64.15,77.40,59.01,19.30,17.76,1.70,17.00,47.50,87.96,25.80,43.78,81.30,3.15,0.00,100,38.30,38.30),(36,'Mikey','Ambrose','LB',27,'Inter Miami FC','USL',0.90,'Atlanta/Atlanta 2',14,41.18,1200,9.93,3.30,50.00,0.21,53.50,68.90,20.72,16.50,15.18,1.80,18.00,45.90,85.00,29.30,61.19,33.60,-20.70,0.00,100,39.45,35.51),(37,'Chris','Richards','RB',20,'Bayern Munich FC','Bundesliga 3',0.90,'Bayern Munich/U23',27,79.41,2396,69.28,3.00,45.45,0.20,55.74,81.00,75.23,15.80,14.54,3.00,30.00,0.00,0.00,12.50,-22.39,41.00,-17.00,0.00,100,39.11,35.20),(38,'Andrew','Gutman','LB',24,'FC Cincinnati','USL',0.90,'Charlotte/FC Cincinnati',16,47.06,1543,26.95,1.50,22.73,0.25,41.46,71.50,32.43,28.50,26.22,1.80,18.00,38.60,71.48,29.10,60.20,96.30,10.65,0.80,60,37.92,34.13),(39,'Greg','Garza','LB',29,'FC Cincinnati','MLS',1.00,'Atlanta United FC/FC Cincinnati',11,32.35,914,-4.27,0.70,10.61,0.39,1.40,82.30,81.08,29.30,26.95,4.30,43.00,49.80,92.22,27.50,52.24,77.00,1.00,1.30,35,33.78,33.78),(40,'Julian','Araujo','RB',18,'LA Galaxy','MLS',1.00,'LA Galaxy/LA Galaxy II',7,20.59,602,-19.75,0.70,10.61,0.40,0.28,74.50,45.95,23.00,21.16,7.00,70.00,38.50,71.30,25.70,43.28,88.00,6.50,0.00,100,33.63,33.63),(41,'Chase','Gasper','LB',24,'Minnesota United','MLS',1.00,'Minnesota United',14,41.18,1293,14.54,1.30,19.70,0.83,-122.13,77.70,60.36,49.00,45.08,5.00,50.00,51.50,95.37,27.40,51.74,131.00,28.00,0.70,65,31.71,31.71),(42,'Matthew','Real','LB',21,'Philadelphia Union','USL',0.90,'Bethlahem/Philadelphia Union',20,58.82,1774,38.41,2.10,31.82,0.33,19.61,70.10,26.13,2.10,1.93,1.20,12.00,39.50,73.15,28.40,56.72,9.90,-32.55,0.00,100,35.09,31.58),(43,'Marlon','Hairston','RB',26,'Minnesota United','MLS',1.00,'Colorado Rapids/Houston Dynamo',8,23.53,643,-17.72,0.30,4.55,0.06,94.68,78.00,61.71,16.00,14.72,2.70,27.00,24.40,45.19,19.30,11.44,39.30,-17.85,0.00,100,31.57,31.57),(44,'Marco','Farfan','LB',21,'Portland Timbers','USL',0.90,'Portland Timbers/Timbers II',18,52.94,1563,27.94,0.60,9.09,0.24,42.86,68.50,18.92,4.80,4.42,0.30,3.00,47.00,87.04,34.70,88.06,32.70,-21.15,0.80,60,33.92,30.53),(45,'Jaylin','Lindsey','RB',20,'Sporting Kansas City','USL',0.90,'Swope Park/Sporting Kansas City',13,38.24,1206,10.22,0.60,9.09,0.13,75.63,74.20,44.59,7.50,6.90,1.20,12.00,57.20,105.93,24.80,38.81,15.60,-29.70,0.80,60,33.79,30.41),(46,'Chris','Odoi-Atsem','RB',25,'DC United','MLS',1.00,'DC United',3,8.82,271,-36.18,1.30,19.70,0.23,45.94,79.20,67.12,2.70,2.48,0.30,3.00,50.00,92.59,27.00,49.75,10.00,-32.50,0.00,100,29.16,29.16),(47,'Chris','Duvall','RB',29,'Portland Timbers','MLS',1.00,'Houston Dynamo/Montreal Impact',7,20.59,764,-11.71,0.30,4.55,0.26,38.94,78.30,63.06,16.00,14.72,1.70,17.00,34.50,63.89,19.50,12.44,33.30,-20.85,0.00,100,27.51,27.51),(48,'Bryan','Reynolds','RB',19,'FC Dallas','MLS',1.00,'FC Dallas',1,2.94,119,-43.72,1.00,15.15,0.07,92.44,75.40,50.00,2.00,1.84,1.00,10.00,38.90,72.04,23.70,33.33,9.00,-33.00,0.00,100,27.37,27.37),(49,'John','Nelson','LB',22,'FC Dallas','MLS',1.00,'FC Dallas',4,11.76,455,-27.05,0.00,0.00,0.39,1.96,81.20,76.13,20.00,18.40,4.00,40.00,38.10,70.56,21.40,21.89,42.00,-16.50,0.00,100,27.01,27.01),(50,'Henry','Wingo','RB',25,'Molde','USL',0.90,'Molde/Tacoma/Seattle II',10,29.41,828,-8.54,1.80,27.27,0.12,77.59,69.40,22.97,2.10,1.93,0.60,6.00,30.00,55.56,22.00,24.88,6.60,-34.20,0.00,100,27.53,24.78),(51,'Zico','Bailey','RB',20,'FC Cincinnati','MLS',1.00,'FC Cincinnati',3,8.82,294,-35.04,0.00,0.00,0.31,25.49,72.60,37.57,10.00,9.20,1.00,10.00,40.00,74.07,28.60,57.71,31.00,-22.00,0.00,100,24.17,24.17),(52,'Alex','DeJohn','RB',29,'Orlando City FC','Allvenskan',0.95,'Dalkurd/Orlando',9,26.47,734,-13.20,0.70,10.15,0.11,80.39,65.30,4.50,4.70,4.32,1.00,9.50,31.60,58.52,17.30,1.49,48.50,-13.25,0.00,100,24.45,23.22),(53,'Samuel','Junqua','LB',24,'Houston Dynamo','USL',0.90,'Houston/RGV Toros',6,17.65,505,-24.57,0.60,9.09,0.13,74.51,65.10,3.60,5.00,4.60,0.00,0.00,45.00,83.33,25.10,40.30,16.20,-29.40,0.00,100,25.37,22.84),(54,'Matt','Polster','RB',27,'New England Revolution','Scottish Premiership',1.00,'Chicago Fire/Rangers',2,5.88,271,-36.18,0.00,0.00,0.26,37.54,83.80,87.84,1.00,0.92,1.00,10.00,0.00,0.00,27.30,51.24,6.00,-34.50,0.00,100,20.25,20.25),(55,'Patrick','Seagrist','LB',22,'New York Red Bulls','MLS',1.00,'New York Red Bulls',3,8.82,245,-37.47,0.00,0.00,0.37,8.12,64.30,0.00,10.00,9.20,0.00,0.00,57.10,105.74,27.00,49.75,21.00,-27.00,0.00,100,19.74,19.74),(56,'Matthew','Olosunde','RB',22,'Rotherham United','League One',0.95,'Manchester U. U23/Eng3',19,55.88,1714,35.43,2.00,30.30,0.21,52.94,79.10,66.67,0.00,0.00,0.00,0.00,0.00,0.00,0.00,-84.58,28.50,-23.25,2.00,0,12.13,11.52),(57,'Andre','Reynolds II','LB',19,'Chicago Fire','MLS',1.00,'Chicago Fire',0,0.00,17,-48.78,0.00,0.00,0.39,1.96,50.00,-64.41,0.00,0.00,0.00,0.00,0.00,0.00,25.00,39.80,3.00,-36.00,0.00,100,-0.68,-0.68),(58,'Chris','Gloster','LB',20,'PSV Eindhoven U23','Eerste Divisie',0.85,'Hannover 96/Jong PSV',11,32.35,958,-2.08,0.60,9.09,0.06,93.28,0.00,-289.64,0.00,0.00,20.00,200.00,0.00,0.00,0.00,-84.58,39.00,-18.00,2.00,0,-5.42,-4.87),(59,'Joe','Scally','RB',17,'New York City FC','MLS',1.00,'NYCFC',1,2.94,69,-46.20,0.00,0.00,1.28,-247.90,82.60,82.43,3.00,2.76,1.00,10.00,0.00,0.00,15.40,-7.96,5.00,-35.00,0.00,100,-12.63,-12.63),(60,'Travian','Sousa','LB',19,'Hamburger SV U19','Bundesliga U-19',0.85,'Hamburger SV U19',14,41.18,1247,12.26,0.90,12.88,0.17,64.71,0.00,-289.64,0.00,0.00,0.00,0.00,0.00,0.00,0.00,-84.58,0.00,-37.50,2.00,0,-25.52,-22.97),(61,'John','Tolkin','LB',18,'New York Red Bulls','USL',0.90,'New York Red Bulls II',9,26.47,807,-9.58,2.00,30.30,0.37,8.40,0.00,-289.64,0.00,0.00,0.00,0.00,0.00,0.00,0.00,-84.58,0.00,-37.50,2.00,0,-32.37,-29.14),(62,'Marlon','Fossey','RB',22,'Shrewsbury Town','English-Championship U-23',0.90,'Fulham U23',3,8.82,237,-37.87,0.00,0.00,0.39,3.08,0.00,-289.64,0.00,0.00,0.00,0.00,0.00,0.00,0.00,-84.58,0.00,-37.50,2.00,0,-39.79,-35.81);
+/*!40000 ALTER TABLE `soccer_usmnt_fullback_ranks` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2021-02-10 16:07:42
