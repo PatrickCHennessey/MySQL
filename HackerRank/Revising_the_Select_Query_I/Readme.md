@@ -12,6 +12,9 @@ The CITY table is described as follows:
 **Answer:** 
 
 SELECT *
+
 FROM CITY 
+
 WHERE COUNTRYCODE = 'USA'
+
 AND POPULATION > 100000;
