@@ -1,0 +1,5 @@
+# Fullback Ranks
+
+*Look into finding total team crosses in season
+*Total crosses by player in a season
+*Usage Rate

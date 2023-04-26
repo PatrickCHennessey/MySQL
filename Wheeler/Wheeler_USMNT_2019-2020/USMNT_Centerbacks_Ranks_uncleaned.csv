@@ -1,0 +1,43 @@
+First Name,Last Name,Prefered Side,Age,Current Club,Clubs Represented During Data Set,League (During Data Set),League Difficulty Modifier,Starts,Score,Minutes,Score,Gls+Ast+PK/Season,Score,YC+(RC*5)/90 %,Score,Pass%,Score,Progressive Passes/90,Score,Tackle % (vs dribbles),Score,Pressure Success %,Score,(Tkl+Int+Blk+Clr)/90,Score,Errors Leading to Shot/90,Score,Total Composite Player Score,League Modifier Weighted Player Rating
+Cameron,Carter-Vickers,Right,23,AFC Bournemouth,Luton Town/Swansea City/Stoke City/Ipswich Town/Sheffield United,Championship,1.05,27,100.00,2406,100.00,1.00,20.00,12.0,79.72,82.6,53.75,4.30,68.81,35.0,-6.46,58.1,203.09,7.23,29.36,0.30,60.00,70.83,74.37
+Tim,Ream,Left,33,Fulham FC,Fulham FC,Championship/Premier League,1.05,39,144.44,3386,169.70,0.17,3.40,2.7,100.00,88.8,92.50,5.50,92.20,37.5,3.04,34.4,56.79,5.78,4.32,0.61,18.67,68.51,71.93
+Erik,Palmer-Brown,Right,23,Austria Wien,Austria Wien/NAC Breda/KV Kortrijk,Austiran Bundesliga/Eredivisie/Belgian 1st Division,1.05,17,62.96,1516,36.70,1.83,36.60,18.1,66.45,83.4,58.75,3.18,46.98,59.8,87.83,59.2,209.88,6.17,11.05,0.30,60.00,67.72,71.11
+Mauricio,Pineda,Right,23,Chicago Fire,Chicago Fire,MLS,1.00,23,85.19,2017,72.33,5.00,100.00,22.3,57.30,89.1,94.38,2.72,38.01,43.5,25.86,36.2,67.90,7.19,28.67,0.01,98.67,66.83,66.83
+Brenden Daniel,Hines-Ike,Right,26,KV Kortrijk,KV Kortrijk/Orebro,Belgian 1st Division/Allsvenskan,1.05,15,55.56,1271,19.27,1.00,20.00,24.1,53.38,75.8,11.25,3.78,58.67,63.0,100.00,64.1,240.12,5.53,0.00,0.21,72.00,63.03,66.18
+John Anthony,Brooks,Left,28,VFL Wolfsburg,VFL Woflsburg,Bundesliga,1.10,24,88.89,2103,78.45,2.16,43.20,19.4,63.57,85.2,70.00,3.68,56.73,40.1,12.93,34.7,58.64,10.08,78.58,0.47,37.33,58.83,64.72
+Walker,Zimmerman,Right,27,Nashville SC,Nashville SC/LAFC,MLS,1.00,24,88.89,2085,77.17,2.67,53.40,18.2,66.27,85.2,70.00,3.08,45.03,40.2,13.31,36.5,69.75,10.53,86.36,0.22,70.67,64.08,64.08
+Miles,Robinson,Right,23,Atlanta United,Atalanta United/ATL 2,MLS,1.00,22,81.48,1923,65.65,0.15,3.00,30.4,39.65,89.2,95.00,3.12,45.81,61.6,94.68,40.7,95.68,9.12,62.00,0.42,44.00,62.69,62.69
+Ventura,Alvarado,Right,28,Atletico San Luis,Necaxa,Liga MX,1.05,22,81.48,1938,66.71,1.00,20.00,48.6,-0.02,81.8,48.75,2.97,42.88,38.5,6.84,55.8,188.89,9.42,67.18,0.23,69.33,59.21,62.17
+Michael,Orozco,Left,35,Orange County SC,Orange County SC/Lobos BUAP,USL,0.90,18,66.67,1609,43.31,2.00,40.00,26.5,48.15,83.2,57.50,4.37,70.18,50.0,50.57,51.1,159.88,6.80,21.93,0.11,85.33,64.35,57.92
+Matt,Hedges,Right,30,FC Dallas,FC Dallas,MLS,1.00,26,96.30,2218,86.63,0.67,13.40,22.1,57.73,87.3,83.13,2.75,38.60,44.9,31.18,31.7,40.12,10.76,90.33,0.49,34.67,57.21,57.21
+Omar,Gonzalez,Right,32,Toronto FC,Toronto FC/Atlas,MLS,1.00,20,74.07,1797,56.69,1.02,20.40,11.1,81.70,83.9,61.88,2.34,30.60,50.0,50.57,39.7,89.51,7.28,30.22,0.30,60.00,55.56,55.56
+David,Romney,Left,27,Nashville SC,Nashville SC/LA Galaxy,MLS,1.00,20,74.07,1737,52.42,1.83,36.60,6.7,91.29,82.8,55.00,2.49,33.53,46.9,38.78,34.4,56.79,8.35,48.70,0.26,65.33,55.25,55.25
+Matt,Miazga,Right,25,RSC Anderlecht,Reading/Nantes/Vitesse,Championship/Ligue 1/Eredivisie,1.05,23,85.19,2019,72.48,1.50,30.00,26.0,49.24,80.3,39.38,5.90,100.00,44.4,29.28,37.3,74.69,7.60,35.75,0.71,5.33,52.13,54.74
+Tim ,Parker,Right,27,Houston Dynamo,New York Red Bulls,MLS,1.00,23,85.19,2041,74.04,1.00,20.00,29.9,40.74,76.2,13.75,2.90,41.52,71.9,133.84,37.6,76.54,8.42,49.91,0.75,0.00,53.55,53.55
+Aaron,Long,Left,28,New York Red Bulls,New York Red Bulls,MLS,1.00,21,77.78,1838,59.60,2.33,46.60,11.5,80.81,73.4,-3.75,2.01,24.17,44.3,28.90,35.1,61.11,11.05,95.34,0.29,61.33,53.19,53.19
+Daniel,Steres,Right,30,LA Galaxy,LA Galaxy,MLS,1.00,22,81.48,1991,70.48,1.50,30.00,22.0,57.95,84.3,64.38,2.43,32.36,49.0,46.77,28.8,22.22,9.03,60.45,0.36,52.00,51.81,51.81
+Matt,Besler,Left,33,Austin FC,Sporting Kansas City,MLS,1.00,18,66.67,1567,40.33,0.33,6.60,19.0,64.49,87.6,85.00,5.82,98.44,49.1,47.15,24.8,-2.47,8.55,52.16,0.35,53.33,51.17,51.17
+Aboubacar,Keita,Left,20,Columbus Crew,Columbus Crew,MLS,1.00,9,33.33,895,-7.47,0.00,0.00,5.2,94.55,88.1,88.13,2.19,27.68,66.7,114.07,41.4,100.00,7.88,40.59,0.60,20.00,51.09,51.09
+Nick,Hagglund,Right,28,FC Cincinnati,FC Cincinnati/Toronto FC,MLS,1.00,10,37.04,1213,15.15,1.00,20.00,11.3,81.26,82.2,51.25,2.24,28.65,55.1,69.96,32.6,45.68,11.32,100.00,0.30,60.00,50.90,50.90
+Mark,McKenzie,Right,21,KRC Genk,Philadelphia Union/Bethlahem Steel,MLS/USL,1.00,18,66.67,1605,43.03,1.50,30.00,15.0,73.20,83.6,60.00,1.70,18.13,49.2,47.53,37.2,74.07,8.66,54.06,0.45,40.00,50.67,50.67
+Ike,Opara,Right,31,Minnesota United,Minnesota/Sporting Kansas City,MLS,1.00,16,59.26,1407,28.95,3.17,63.40,16.3,70.37,82.9,55.63,2.47,33.14,42.5,22.05,29.6,27.16,11.14,96.89,0.38,49.33,50.62,50.62
+Steve,Birnbaum,Left,30,DC United,DC United,MLS,1.00,22,81.48,1970,68.99,1.17,23.40,12.9,77.78,84.2,63.75,2.47,33.14,41.6,18.63,26.9,10.49,9.90,75.47,0.37,50.67,50.38,50.38
+Auston,Trusty,Left,22,Colorado Rapids,Colorado/Philadelphia,MLS,1.00,16,59.26,1429,30.51,1.00,20.00,22.7,56.43,84.0,62.50,3.16,46.59,42.0,20.15,38.1,79.63,11.02,94.82,0.50,33.33,50.32,50.32
+Justen,Glad,Right,23,Real Salt Lake,Real Salt Lake,MLS,1.00,20,74.07,1812,57.75,0.50,10.00,18.7,65.14,84.1,63.13,2.47,33.14,42.9,23.57,29.2,24.69,9.90,75.47,0.30,60.00,48.70,48.70
+Sebastien,Ibeagha,Right,29,New York City FC,New York City FC,MLS,1.00,8,29.63,802,-14.08,0.00,0.00,8.7,87.04,86.8,80.00,1.80,20.08,61.8,95.44,33.9,53.70,10.00,77.20,0.34,54.67,48.37,48.37
+Josh,Williams,Right,32,Columbus Crew,Columbus Crew,MLS,1.00,13,48.15,1185,13.16,0.67,13.40,11.9,79.96,89.0,93.75,2.97,42.88,40.8,15.59,38.0,79.01,6.78,21.59,0.30,60.00,46.75,46.75
+Brent,Kallman,Right,30,Minnesota United,Minnesota United/El Paso Locomotive,MLS,1.00,12,44.44,889,-7.89,0.67,13.40,5.1,94.77,82.8,55.00,1.77,19.49,46.7,38.02,36.8,71.60,9.43,67.36,0.40,46.67,44.29,44.29
+Shane,O'Neill,Right,27,Seattle Sounders,Seattle Sounders/Orlando City,MLS,1.00,12,44.44,1085,6.05,0.00,0.00,28.2,44.44,82.2,51.25,1.82,20.47,56.2,74.14,35.6,64.20,8.97,59.41,0.17,77.33,44.17,44.17
+Eriq, Zavaleta,Right,28,Free Agent,Toronto FC,MLS,1.00,8,29.63,728,-19.35,0.00,0.00,38.7,21.57,90.2,101.25,2.69,37.43,62.5,98.10,34.7,58.64,7.96,41.97,0.25,66.67,43.59,43.59
+Jalil,Anibaba,Right,32,Nashville SC,Nashville SC/New Enlgand Revolution,MLS,1.00,14,51.85,1333,23.68,0.50,10.00,24.9,51.63,74.2,1.25,2.66,36.84,59.1,85.17,31.0,35.80,10.54,86.53,0.47,37.33,42.01,42.01
+Graham,Smith,Right,25,Sporting Kansas City,Sporting Kansas City/Swope Park,MLS,1.00,14,51.85,1270,19.20,0.67,13.40,20.1,62.09,86.1,75.63,0.77,0.00,36.7,0.00,25.2,0.00,3.50,-35.06,0.01,98.67,28.58,28.58
+Alex,Crognale,Right,26,Birmingham Legion,Birmingham Legion/Indy Eleven/Columbus Crew,USL,0.90,12,44.44,1044,3.13,1.50,30.00,37.9,23.31,81.6,47.50,2.59,35.48,37.5,3.04,26.1,5.56,6.64,19.17,0.17,77.33,28.90,26.01
+Wesley,Charpie,Right,28,Louisville City,Louisville City/Memphis/Saint Louis,USL,0.90,15,55.56,1324,23.04,0.67,13.40,26.5,48.15,74.0,0.00,0.77,0.00,36.7,0.00,25.2,0.00,2.68,-49.22,0.75,0.00,9.09,8.18
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

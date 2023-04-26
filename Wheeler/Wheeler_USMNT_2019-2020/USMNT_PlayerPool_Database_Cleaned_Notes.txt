@@ -1,0 +1,3 @@
+#PlayerPool Notes
+
+Wheeler wants to add teams which may be an issue as unsure how to do it apart from adding cell by cell

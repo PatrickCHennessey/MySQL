@@ -1,0 +1,26 @@
+MLS Wheeler Notes
+
+# GK Ranks
+
+Column Scores C through O
+
+2017-2018 stats multiplied by 1
+2018-2019 stats multiplied by 2
+2019-2020 stats multiplied by 3
+
+Sum three values and divide by 6
+
+Column Q is a straight average of all scores for the players divided by number of score columns
+
+# Modifiers for Leagues
+
+SCORE MODIFIER
+10% GROUP 1: ENG1, SPN1, GER1, ITA1, FRA1
+
+5% GROUP 2: BRZ1, RUS1, POR1, ENG2, MEX1, NET1, SWIS1, AUST1, ARG1, BEL1
+
+0% GROUP 3: GRC1, MLS, SPN2, JPN1, GER2, SCOT1, CHI1, TURK1, DEN1 
+
+-5% GROUP 4: FRA2, SWE1, NOR1, AU1, ITA2, ENG3 
+
+-10% GROUP 5: SA1, USL, ENG4, ISR1, SAU1
