@@ -1,6 +1,6 @@
 # MySQL
 MySQL exercises
-
+ 
 Skills to assist in developing: Github, GitBash, PATH, Vim, MySQL Workbench, while reading and answering problems provided in SQL Cookbook. 
 
 - Chapter 1 is complete.
