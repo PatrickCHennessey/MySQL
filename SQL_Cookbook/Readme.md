@@ -9,5 +9,4 @@ Note: DB2, Oracle, PostgreSQL, and SQL Server syntax is covered in the "SQL Cook
 
 Status:
 - Chapter 1 is complete.
-- Chapter 2 needs to be seperated problem by problem in order to avoid syntax errors. Additionally remove previous versions utilizing GitBash.git status
-- Transcribe future chapters problem by problem.
+- Currently on: Chapter 3 
