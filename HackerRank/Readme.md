@@ -1,6 +1,6 @@
 # HackerRank
 
-This sub-folder contains SQL problems from HackerRank.com 
+This sub-folder contains SQL problems from HackerRank.com
 
 Primary Skills Developed: MySQL.
 
