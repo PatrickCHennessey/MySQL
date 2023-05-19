@@ -15,4 +15,8 @@ Where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 **Answer**
 
+SELECT DISTINCT(CITY)
 
+FROM STATION
+
+WHERE CITY REGEXP '^[aeiou].*[aeiou]$';
