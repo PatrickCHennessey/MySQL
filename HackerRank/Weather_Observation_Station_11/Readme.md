@@ -12,4 +12,8 @@ The STATION table is described as follows:
 
 **Answer**
 
+SELECT DISTINCT CITY
 
+FROM STATION
+
+WHERE NOT CITY REGEXP '^[aeiou].*[aeiou]$';
