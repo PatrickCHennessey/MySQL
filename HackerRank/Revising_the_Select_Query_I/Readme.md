@@ -1,4 +1,4 @@
-**Exercise:** 
+**Exercise:**
 
 Revising the Select Query I
 
