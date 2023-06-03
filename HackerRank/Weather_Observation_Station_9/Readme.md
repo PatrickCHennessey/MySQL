@@ -1,6 +1,6 @@
 **Exercise**
 
-Weather observation Station 9
+Weather Observation Station 9
 
 **Question**
 
