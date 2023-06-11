@@ -26,3 +26,11 @@ The STATION table is described as follows:
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 **Answer**
+
+SELECT ABS(ROUND(
+
+(MIN(LAT_N)-MAX(LAT_N)) +
+
+(MIN(LONG_W)-Max(LONG_W)),4))
+
+FROM STATION;
