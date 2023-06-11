@@ -22,4 +22,6 @@ The STATION table is described as follows:
 
 *Note: Refer to Weather_Observation_Station_18.png provided in Weather_Observation_Station_18 directory for image of STATION table.
 
+where LAT_N is the northern latitude and LONG_W is the western longitude.
+
 **Answer**
