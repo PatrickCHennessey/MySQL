@@ -16,13 +16,13 @@ The CITY and COUNTRY tables are described as follows:
 
 **Answer**
 
-SELECT NAME
+	SELECT NAME
 
-FROM CITY
+	FROM CITY
 
-WHERE COUNTRYCODE
+	WHERE COUNTRYCODE
 
-IN (
+	IN (
     SELECT CODE
     
     FROM COUNTRY
