@@ -23,9 +23,10 @@ The CITY and COUNTRY tables are described as follows:
 	WHERE COUNTRYCODE
 
 	IN (
+    
     SELECT CODE
     
     FROM COUNTRY
     
     WHERE CONTINENT = 'Africa'
-);
+	);
