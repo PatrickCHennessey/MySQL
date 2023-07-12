@@ -14,6 +14,18 @@ The CITY and COUNTRY tables are described as follows:
 
 *Note refer to png files in directory for CITY and COUNTRY table images.*
 
-**ANSWER**
+**Answer**
 
+SELECT NAME
 
+FROM CITY
+
+WHERE COUNTRYCODE
+
+IN (
+    SELECT CODE
+    
+    FROM COUNTRY
+    
+    WHERE CONTINENT = 'Africa'
+);
