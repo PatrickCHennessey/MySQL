@@ -6,7 +6,7 @@ Population Density Difference
 
 Query the difference between the maximum and minimum populations in CITY.
 
-*Note: Refer to Popultion_Density_Difference.PNG file provided in directory for City table.*
+*Note: Refer to Popultion_Density_Difference.PNG file provided in directory for CITY table.*
 
 **Answer:** 
 
