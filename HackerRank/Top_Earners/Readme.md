@@ -17,3 +17,9 @@ where employee_id is an employee's ID number, name is their name, months is the 
 *Note: Refer to Sample_Input.png for screenshot of table data.*
 
 **Answer:**
+
+    SELECT MAX(SALARY * MONTHS), COUNT(*)
+        FROM EMPLOYEE
+	    WHERE SALARY * MONTHS = (
+	    	SELECT MAX(SALARY * MONTHS)
+		FROM EMPLOYEE);
