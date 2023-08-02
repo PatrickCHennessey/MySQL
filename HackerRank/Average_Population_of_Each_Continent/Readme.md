@@ -8,7 +8,14 @@ Given the CITY and COUNTRY tables, query the names of all the continents (COUNTR
 
 *Note: CITY.CountryCode and COUNTRY.Code are matching key columns.*
 
-*Note: Refer to Average_Population_of_Each_Continent directory for CITY and COUNTRY tables* 
+*Note: Refer to CITY.png and COUNTRY.png in Average_Population_of_Each_Continent directory for CITY and COUNTRY tables* 
 
 **Answer:** 
 
+	SELECT COUNTRY.CONTINENT, FLOOR(AVG(CITY.POPULATION))
+	
+	FROM COUNTRY
+	
+	INNER JOIN CITY ON CITY.COUNTRYCODE=COUNTRY.CODE
+	
+	GROUP BY COUNTRY.CONTINENT;
