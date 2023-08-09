@@ -1,3 +1,9 @@
+**Exercise**
+
+The PADS
+
+**Question**
+
 Generate the following two result sets:
 
 1. Query an alphabetically ordered list of all names in OCCUPATIONS, immediately followed by the first letter of each profession as a parenthetical (i.e.: enclosed in parentheses). For example: AnActorName(A), ADoctorName(D), AProfessorName(P), and ASingerName(S).
@@ -29,3 +35,7 @@ Explanation
 
 The results of the first query are formatted to the problem description's specifications.
 The results of the second query are ascendingly ordered first by number of names corresponding to each profession (2 $\geqslant$ 2 $\geqslant$ 3 $\geqslant$ 3), and then alphabetically by profession (doctor $\geqslant$ singer, and actor $\geqslant$, professor).
+
+**Answer**
+
+
