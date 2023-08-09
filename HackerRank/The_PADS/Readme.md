@@ -38,4 +38,20 @@ The results of the second query are ascendingly ordered first by number of names
 
 **Answer**
 
-
+	SELECT CONCAT((Name),'(', SUBSTR(Occupation, 1,1),')')
+	
+	FROM OCCUPATIONS
+	
+	ORDER BY Name ASC;
+    		
+		SELECT CONCAT('There are a total of ', GBjob.TotalName ,' ',  LOWER(Occupation), 's.') 
+    		
+		FROM (SELECT Occupation,
+        		
+			COUNT(NAME) As TotalName
+        		
+			FROM OCCUPATIONS
+        		
+			GROUP BY OCCUPATION) AS GBjob 
+        		
+			ORDER BY TotalName;
